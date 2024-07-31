@@ -10,8 +10,8 @@ export default function Home() {
           <Image
             src="/assets/icons/logo-full.svg"
             priority
-            height={1000}
-            width={1000}
+            height={40}
+            width={160}
             alt="logo"
             className="mb-12 h-10 w-fit"
           />
