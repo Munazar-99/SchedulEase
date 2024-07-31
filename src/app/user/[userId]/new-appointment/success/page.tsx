@@ -31,6 +31,7 @@ const Success = async ({ params: { userId }, searchParams }: SearchParamProps) =
         <Link href="/">
           <Image
             src="/assets/icons/logo-full.svg"
+            priority
             height={40}
             width={160} 
             alt="logo"
@@ -40,6 +41,7 @@ const Success = async ({ params: { userId }, searchParams }: SearchParamProps) =
         <section className="flex flex-col items-center mb-8">
           <Image
             src="/assets/gifs/success.gif"
+            priority
             height={300}
             width={200}
             alt="success"

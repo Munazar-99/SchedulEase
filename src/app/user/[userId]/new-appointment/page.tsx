@@ -20,6 +20,7 @@ async function NewAppointment({ params: { userId } }: SearchParamProps) {
         <div className="sub-container max-w-[860px] flex-1 flex-col justify-between">
           <Image
             src="/assets/icons/logo-full.svg"
+            priority
             height={40} 
             width={160} 
             alt="logo"
@@ -34,6 +35,7 @@ async function NewAppointment({ params: { userId } }: SearchParamProps) {
       </section>
       <Image
         src="/assets/images/appointment-img.png"
+        priority
         height={1000}
         width={1000}
         alt="appointment"

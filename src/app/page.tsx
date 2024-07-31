@@ -9,6 +9,7 @@ export default function Home() {
         <div className="sub-container max-w-[496px]">
           <Image
             src="/assets/icons/logo-full.svg"
+            priority
             height={1000}
             width={1000}
             alt="logo"
@@ -28,6 +29,7 @@ export default function Home() {
       </section>
       <Image
         src={"/assets/images/onboarding-img.png"}
+        priority
         height={1000}
         width={1000}
         alt="logo"

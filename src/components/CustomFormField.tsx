@@ -53,6 +53,7 @@ const RenderField = ({ field, props }: { field: any; props: CustomProps }) => {
             <Image
               src={iconSrc}
               alt={iconAlt || "icon"}
+              priority
               height={24}
               width={24}
               className="ml-2"
@@ -101,6 +102,7 @@ const RenderField = ({ field, props }: { field: any; props: CustomProps }) => {
         <div className="flex rounded-md border border-dark-500 bg-dark-400">
           <Image
             src="/assets/icons/calendar.svg"
+            priority
             height={24}
             width={24}
             alt="calendar"
