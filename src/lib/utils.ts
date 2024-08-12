@@ -15,3 +15,10 @@ export const getEnv = (key: string): string => {
 
 export const parseStringify = (value: any) => JSON.parse(JSON.stringify(value));
 
+export function encryptKey(passkey: string) {
+  return btoa(passkey);
+}
+
+export function decryptKey(passkey: string) {
+  return atob(passkey);
+}
