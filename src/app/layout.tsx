@@ -11,7 +11,7 @@ const fontSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Setter",
+  title: "SchedulEase",
   description: "An Appointment booking system",
 };
 

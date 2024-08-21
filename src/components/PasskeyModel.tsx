@@ -28,7 +28,6 @@ const PasskeyModel = () => {
   const [passkey, setPasskey] = useState("");
   const [error, setError] = useState("");
   const router = useRouter();
-  console.log({ open });
   const path = usePathname();
 
   const encryptedKey =
